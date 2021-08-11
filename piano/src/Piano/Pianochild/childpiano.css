@@ -1,0 +1,26 @@
+.sa{
+    height: 400px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+    width: 50px;
+    box-shadow: 0 0 10px black;
+}
+h2{
+    background-color: black;
+    color: white;
+}
+.music_card{
+    display: inline-block;
+    width: 100%;
+}
+.sound{
+    display: inline-block;
+    margin: 30px;
+}
+.sa:hover{
+    background-color: black;
+}
+.btn-check:focus+ .btn-primary, .btn-primary:focus{
+    background-color: black;
+}

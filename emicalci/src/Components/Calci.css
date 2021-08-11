@@ -1,0 +1,32 @@
+.calculate{
+    width:800px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    /*background-color: #f32f9f;
+    */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    text-align: center;
+}
+.form-control:focus{
+    /* border-color:red; */
+    box-shadow:0 0 0 0.25rem rgb(21 11 31 / 25%);
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.out{
+    margin: 20px;
+}
+.submit{
+    background-color: black;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
