@@ -20,7 +20,7 @@ export const Calci = () => {
     <div>
       <Form>
         <Card className="calculate">
-          <h2>EMI Calculate</h2>
+          <h2>EMI Calculator</h2>
           <Row className="out">
             <Col xs="2"></Col>
             <Col xs="4">
@@ -94,7 +94,7 @@ export const Calci = () => {
               <Col xs="4"></Col>
               <Col xs="4">
                 <Button className="submit" onClick={handleEmi}>
-                  <b>Submit</b>
+                  <b>Calculate </b>
                 </Button>
               </Col>
               <Col xs="4"></Col>
